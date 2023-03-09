@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-item {
+    border: 1px solid grey; padding: 0.5px;
+    width: 9rem;
+    height: 9rem;
+    padding: 10px;
+    text-align: center;
+}
+
+code {
+    background-color: rgb(235, 235, 235);
+}
